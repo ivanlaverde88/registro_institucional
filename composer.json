@@ -1,0 +1,16 @@
+{
+  "name": "registro-institucional/app",
+  "description": "Sistema de registro institucional con verificación por correo",
+  "type": "project",
+  "require": {
+    "phpmailer/phpmailer": "^7.1",
+    "vlucas/phpdotenv": "^5.7",
+    "getbrevo/brevo-php": "^5.0",
+    "guzzlehttp/guzzle": "^8.2"
+  },
+  "config": {
+    "allow-plugins": {
+      "php-http/discovery": true
+    }
+  }
+}
